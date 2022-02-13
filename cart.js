@@ -66,3 +66,12 @@ document.getElementById("case-plus").addEventListener("click", function () {
 document.getElementById("case-minus").addEventListener("click", function () {
   getInputValue("case-field", "case-price", false, false);
 });
+
+// -------------MINOR FUNCTION----------
+function remove() {
+  alert(`HA..HA...HA....😈....Now You Can't Change Your Decide. You Must Buy The Products...😈
+  `);
+}
+function checkout() {
+  alert(`You Haven't Enough Balance`);
+}
